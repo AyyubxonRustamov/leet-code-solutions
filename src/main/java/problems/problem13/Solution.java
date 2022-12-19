@@ -50,18 +50,18 @@ package problems.problem13;
 */
 
 public class Solution {
-    public int romanToInt(String s){
-        int summ = romanValues(s.charAt(s.length()-1));
-        for (int i = s.length()-1; i > 0; i--) {
-            if (romanValues(s.charAt(i)) <= romanValues(s.charAt(i-1)))
-                summ += romanValues(s.charAt(i-1));
+    public int romanToInt(String s) {
+        int summ = romanValues(s.charAt(s.length() - 1));
+        for (int i = s.length() - 1; i > 0; i--) {
+            if (romanValues(s.charAt(i)) <= romanValues(s.charAt(i - 1)))
+                summ += romanValues(s.charAt(i - 1));
             else
-                summ -= romanValues(s.charAt(i-1));
+                summ -= romanValues(s.charAt(i - 1));
         }
         return summ;
     }
 
-    public int romanValues(char s){
+    public int romanValues(char s) {
         return switch (s) {
             case 'I' -> 1;
             case 'V' -> 5;
