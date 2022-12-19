@@ -30,10 +30,10 @@ package problems.problem9;
 */
 
 public class Solution {
-    public boolean isPalindrome(int x){
+    public boolean isPalindrome(int x) {
         if (x < 0) return false;
         String s = String.valueOf(x);
-        return s.substring(0,s.length()/2).equals(new StringBuilder(s.substring(
-                s.length()%2==0? s.length()/2 : s.length()/2+1)).reverse().toString());
+        return s.substring(0, s.length() / 2).equals(new StringBuilder(s.substring(
+                s.length() % 2 == 0 ? s.length() / 2 : s.length() / 2 + 1)).reverse().toString());
     }
 }
