@@ -56,12 +56,12 @@ public class Solution {
 //        Solution 1
         int lastChangeIndex = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (nums[lastChangeIndex]<nums[i]){
+            if (nums[lastChangeIndex] < nums[i]) {
                 lastChangeIndex++;
                 nums[lastChangeIndex] = nums[lastChangeIndex] ^ nums[i] ^ (nums[i] = nums[lastChangeIndex]);
             }
         }
-        return lastChangeIndex+1;
+        return lastChangeIndex + 1;
 
 /*        Solution 2
 
