@@ -55,30 +55,25 @@ public class Solution {
 
 //        Solution 1
         int lastChangeIndex = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[lastChangeIndex] < nums[i]) {
-                lastChangeIndex++;
-                nums[lastChangeIndex] = nums[lastChangeIndex] ^ nums[i] ^ (nums[i] = nums[lastChangeIndex]);
-            }
-        }
+        for (int i = 0; i < nums.length; i++)
+            if (nums[lastChangeIndex] < nums[i])
+                nums[++lastChangeIndex] = nums[lastChangeIndex] ^ nums[i] ^ (nums[i] = nums[lastChangeIndex]);
         return lastChangeIndex + 1;
 
-/*        Solution 2
+//        Solution 2
+//
+//        int picker = 0;
+//        for (int i = 1; i < nums.length; i++)
+//            if (nums[i] != nums[picker])
+//                nums[++picker] = nums[i];
+//        return nums.length == 0 ? 0 : picker + 1;
 
-        int picker = 0;
-        for (int i = 1; i < nums.length; i++)
-            if (nums[i] != nums[picker])
-                nums[++picker] = nums[i];
-        return nums.length == 0 ? 0 : picker + 1;
-*/
-
-/*        Solution 3
-
-        for(int tail = 1, head = 0; ; tail++)
-            if(tail >= nums.length)
-                return ++head;
-            else if(nums[head] != nums[tail])
-                nums[++head] = nums[tail];
-*/
+//        Solution 3
+//
+//        for(int tail = 1, head = 0; ; tail++)
+//            if(tail >= nums.length)
+//                return ++head;
+//            else if(nums[head] != nums[tail])
+//                nums[++head] = nums[tail];
     }
 }
