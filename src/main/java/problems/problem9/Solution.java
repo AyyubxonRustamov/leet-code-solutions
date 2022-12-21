@@ -1,6 +1,5 @@
 package problems.problem9;
 
-
 /*
     9. Palindrome number
 
