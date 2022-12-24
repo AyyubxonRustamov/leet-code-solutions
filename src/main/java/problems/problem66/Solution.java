@@ -43,7 +43,7 @@ package problems.problem66;
 public class Solution {
     public int[] plusOne(int[] digits) {
         int i = digits.length - 1;
-        while (i >= 0 && digits[i] == 0)
+        while (i >= 0 && digits[i] == 9)
             i--;
 
         if (i == -1) {
