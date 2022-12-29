@@ -25,6 +25,8 @@ package problems.problem70;
     Author: Ayyubxon Rustamov | ayyubxonmaverick@gmail.com
 */
 
+import problems.ListNode;
+
 public class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode list = head;
