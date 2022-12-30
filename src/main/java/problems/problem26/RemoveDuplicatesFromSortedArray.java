@@ -50,7 +50,7 @@ package problems.problem26;
     Author: Ayyubxon Rustamov | ayyubxonmaverick@gmail.com
  */
 
-public class Solution {
+public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
 
 //        Solution 1
