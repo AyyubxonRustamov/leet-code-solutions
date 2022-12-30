@@ -26,7 +26,7 @@ package problems.problem14;
     Author: Ayyubxon Rustamov | ayyubxonmaverick@gmail.com
 */
 
-public class Solution {
+public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) return "";
         String p = strs[0];
