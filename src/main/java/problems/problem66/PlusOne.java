@@ -40,7 +40,7 @@ package problems.problem66;
     Author: Rustamov Ayyubxon | @ayyubxonmaverick@gmail.com
 */
 
-public class Solution {
+public class PlusOne {
     public int[] plusOne(int[] digits) {
         int i = digits.length - 1;
         while (i >= 0 && digits[i] == 9)
