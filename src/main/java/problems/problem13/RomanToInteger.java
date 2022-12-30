@@ -51,7 +51,7 @@ package problems.problem13;
     Author: Rustamov Ayyubxon | ayyubxonmaverick@gmail.com
 */
 
-public class Solution {
+public class RomanToInteger {
     public int romanToInt(String s) {
         int summ = romanValues(s.charAt(s.length() - 1));
         for (int i = s.length() - 1; i > 0; i--) {
