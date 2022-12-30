@@ -1,6 +1,8 @@
 package problems.problem20;
 
 /*
+    20. Valid Parentheses
+
     Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string
     is valid.
     An input string is valid if:
@@ -32,7 +34,7 @@ package problems.problem20;
 
 import java.util.Stack;
 
-public class Solution {
+public class ValidParentheses {
     public boolean isValid(String s) {
         if (s.length() % 2 == 1) return false;
         Stack<Character> stack = new Stack<>();
