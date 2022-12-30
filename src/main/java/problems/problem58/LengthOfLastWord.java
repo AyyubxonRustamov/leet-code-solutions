@@ -32,7 +32,7 @@ package problems.problem58;
     Author: Ayyubxon Rustamov | ayyubxonmaverick@gmail.com
 */
 
-public class Solution {
+public class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
 
 //        Solution 1
