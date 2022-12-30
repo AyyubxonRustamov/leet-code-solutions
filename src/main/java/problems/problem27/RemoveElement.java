@@ -52,7 +52,7 @@ package problems.problem27;
     Author: Ayyubxon Rustamov | ayyubxonmaverick@gmail.com
 */
 
-public class Solution {
+public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int lastChangeIndex = 0;
         for (int i = 0; i < nums.length; i++)
