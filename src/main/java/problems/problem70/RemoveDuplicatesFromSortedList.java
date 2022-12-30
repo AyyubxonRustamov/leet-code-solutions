@@ -27,7 +27,7 @@ package problems.problem70;
 
 import problems.ListNode;
 
-public class Solution {
+public class RemoveDuplicatesFromSortedList {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode list = head;
 
