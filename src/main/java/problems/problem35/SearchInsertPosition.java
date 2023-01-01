@@ -26,7 +26,7 @@ package problems.problem35;
     nums contains distinct values sorted in ascending order.
     -104 <= target <= 104
 
-    Author: Rustamov Ayyubxon | ayyubxonmaverick@gmail.com
+    Author: Ayyubxon Rustamov | ayyubxonmaverick@gmail.com
 */
 
 public class SearchInsertPosition {
