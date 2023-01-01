@@ -48,7 +48,7 @@ package problems.problem13;
     s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
     It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
-    Author: Rustamov Ayyubxon | ayyubxonmaverick@gmail.com
+    Author: Ayyubxon Rustamov | ayyubxonmaverick@gmail.com
 */
 
 public class RomanToInteger {
