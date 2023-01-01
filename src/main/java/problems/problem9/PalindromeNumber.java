@@ -25,7 +25,7 @@ package problems.problem9;
 
     -231 <= x <= 231 - 1
 
-    Author: Rustamov Ayyubxon | ayyubxonmaverick@gmail.com
+    Author: Ayyubxon Rustamov | ayyubxonmaverick@gmail.com
 */
 
 public class PalindromeNumber {
