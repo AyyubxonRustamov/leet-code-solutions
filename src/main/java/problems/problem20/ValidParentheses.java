@@ -29,7 +29,7 @@ package problems.problem20;
     1 <= s.length <= 104
     s consists of parentheses only '()[]{}'.
 
-    Author: Rustamov Ayyubxon | ayyubxonmaverick@gmail.com
+    Author: Ayyubxon Rustamov | ayyubxonmaverick@gmail.com
 */
 
 import java.util.Stack;
