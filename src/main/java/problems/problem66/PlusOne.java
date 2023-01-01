@@ -37,7 +37,7 @@ package problems.problem66;
     0 <= digits[i] <= 9
     digits does not contain any leading 0's.
 
-    Author: Rustamov Ayyubxon | @ayyubxonmaverick@gmail.com
+    Author: Ayyubxon Rustamov | @ayyubxonmaverick@gmail.com
 */
 
 public class PlusOne {
